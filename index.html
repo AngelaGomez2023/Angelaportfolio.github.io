@@ -19,10 +19,9 @@
         <nav id="nav">
             <ul>
                 <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
-                <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
-                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li><a href="#skills" onclick="seleccionar()">ABOUT ME</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">SKILLS</a></li>
                 <li><a href="#contacto" onclick="seleccionar()">CONTACT</a></li>
             </ul>
         </nav>
@@ -35,7 +34,6 @@
  <section id="inicio" class="inicio">
     <div class="contenido-banner">
         <div class="contenedor-img">
-            <img src="img/foto.PNG" alt="">
         </div>
         <h1>ANGELA GOMEZ</h1>
         <h2>Game Developer and Data Analyst</h2>
@@ -47,89 +45,148 @@
         </div>
     </div>
 </section>
- <!-- SECCION SOBRE MI -->
- <section id="sobremi" class="sobremi">
+ <!-- SECCION INICIO -->
+<section id="portfolio" class="portfolio">
     <div class="contenido-seccion">
-        <h2>About me</h2>
-        <p><span>Hi! my name is Angela Gomez</span> I am game developer and data analyst. Welcome to my world of pixels and adventures!  my passion is turning ideas into exciting and interactive realities
-            "With a pinch of madness and a lot of coffee, each project becomes a unique story ready to be played."
-            "Join me on this journey full of challenges and fun!</p>
-
-        <div class="fila">
-            <!-- datos personales -->
-            <div class="col">
-                <h3>Personal Dates</h3>
-                <ul>
-                    <li>
-                        <strong>Birthday</strong>
-                        
-                    </li>
-                    <li>
-                        <strong>Phone</strong>
-                        57 3104785076
-                    </li>
-                    <li>
-                        <strong>Email</strong>
-                        ag957603@gmail.com
-                    </li>
-                    <li>
-                        <strong>Website</strong>
-                        
-                    </li>
-                    <li>
-                        <strong>Direction</strong>
-                        Bogota - Colombia
-                    </li>
-                    <li>
-                        <strong>Job</strong>
-                        <span></span>
-                    </li>
-                </ul>
+        <h2>PORTFOLIO</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="img/duende.PNG" alt="">
+                 <div class="overlay">
+                    <h3>Mortal Reflex</h3>
+                    <p>This game was created during a one-day game jam in collaboration with two other teammates. I was responsible for developing attacks, obstacles, and some player movements.</p>
+                </div>
             </div>
-
-            <!-- intereses -->
-            <div class="col">
-                <h3>INTERESTS</h3>
-                <div class="contenedor-intereses">
-                    <div class="interes">
-                        <i class="fa-solid fa-gamepad"></i>
-                        <span>GAMES</span>
-                    </div>
-                    <div class="interes">
-                        <i class="fa-solid fa-headphones"></i>
-                        <span>MUSIC</span>
-                    </div>
-                    <div class="interes">
-                        <i class="fa-solid fa-plane"></i>
-                        <span>Trips</span>
-                    </div>
-                    <div class="interes">
-                        <i class="fa-solid fa-person-hiking"></i>
-                        <span>SPORTS</span>
-                    </div>
-                    <div class="interes">
-                        <i class="fa-solid fa-book"></i>
-                        <span>BOOKS</span>
-                    </div>
-                    <div class="interes">
-                        <i class="fa-solid fa-car"></i>
-                        <span>CARS</span>
-                    </div>
-                    <div class="interes">
-                        <i class="fa-solid fa-camera"></i>
-                        <span>PHOTOS</span>
-                    </div>
-                    
+            <div class="proyecto">
+                <img src="img/AS.PNG" alt="">
+                <div class="overlay">
+                    <h3>ASHAS'S ASCENT</h3>
+                    <p>This project is a three-day Game Jam, where we applied acquired knowledge. My contribution was in programming, creating scripts for the character's functionality, UI, and documentation 
+                    </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/crush.PNG" alt="">
+                <div class="overlay">
+                    <h3>CRUSH</h3>
+                    <p>This is a clicker game prototype where the challenge is to correct the code until it is functional and apply acquired knowledge
+                    </p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/globo.PNG" alt="">
+                <div class="overlay">
+                    <h3>Globo Prototype</h3>
+                    <p>The following is a prototype where the player must dodge bombs, collect money, and stay afloat using impulses and bounce physics, with dynamic visual and sound effects</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/LABORATORIO.PNG" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/p6.jpg" alt="">
+                <div class="overlay">
+                    <h3>Diseño Creativo</h3>
+                    <p>Fotografía</p>
                 </div>
             </div>
         </div>
-        <button>
-            Download CV <i class="fa-solid fa-download"></i>
-            <span class="overlay"></span>
-        </button>
     </div>
 </section>
+ <!-- SECCION SOBRE MI -->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>About Me</h2>
+        <div class="sobre-mi-contenido">
+            <div class="foto-perfil">
+                <div class="contenedor-img"></div>
+                <img src="img/foto.PNG" alt="">
+            </div>
+            <div class="texto-sobre-mi">
+                <p><span>Hi! my name is Angela Gomez</span> I am a game developer and data analyst. Welcome to my world of pixels and adventures! My passion is turning ideas into exciting and interactive realities. 
+                "With a pinch of madness and a lot of coffee, each project becomes a unique story ready to be played."
+                "Join me on this journey full of challenges and fun!"</p>
 
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Personal Dates</h3>
+                        <ul>
+                            <li>
+                                <strong>Birthday</strong>
+                                <!-- Añadir fecha de cumpleaños si es necesario -->
+                            </li>
+                            <li>
+                                <strong>Phone</strong>
+                                57 3104785076
+                            </li>
+                            <li>
+                                <strong>Email</strong>
+                                ag957603@gmail.com
+                            </li>
+                            <li>
+                                <strong>Website</strong>
+                                <!-- Añadir enlace a tu sitio web si es necesario -->
+                            </li>
+                            <li>
+                                <strong>Direction</strong>
+                                Bogota - Colombia
+                            </li>
+                            <li>
+                                <strong>Job</strong>
+                                <!-- Añadir puesto si es necesario -->
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- intereses -->
+                    <div class="col">
+                        <h3>INTERESTS</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>GAMES</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSIC</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>Trips</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-person-hiking"></i>
+                                <span>SPORTS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>BOOKS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-car"></i>
+                                <span>CARS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-camera"></i>
+                                <span>PHOTOS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    <a href="https://docs.google.com/document/d/1erMUvASeCCCsnTx4Wl-_7ZMtsSrofJQp/export?format=pdf" class="download-btn" download>
+                    Download CV <i class="fa-solid fa-download"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- SECCION SKILLS -->
 <section class="skills" id="skills">
     <div class="contenido-seccion">
@@ -226,144 +283,34 @@
         </div>
     </div>
 </section>
-
-<!-- SECCION CURRICULUM -->
-<section id="curriculum" class="curriculum">
-    <div class="contenido-seccion">
-        <h2>Curriculum</h2>
-        <div class="fila">
-            <div class="col izquierda">
-                <h3>Educación</h3>
-                <div class="item izq">
-                    <h4>Video Game Developer</h4>
-                    <span class="casa">Generation Colombia</span>
-                    <span class="fecha">In progress </span>
-                    <p>Development of a variety of 2D and 3D games, including multiplayer experiences, for mobile, virtual reality, and augmented reality. It is also used for simulations, interactive applications, and rapid prototyping across various industries.</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
-                    </div>
-                </div>
-                <div class="item izq">
-                    <h4>Software and mobile applications developer</h4>
-                    <span class="casa">Politecnico Internacional</span>
-                    <span class="fecha">2021-2023</span>
-                    <p>Manage the software and web and mobile application development process, considering support, system maintenance, and quality standards, in order to meet the information management and control requirements of organizations</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
-                    </div>
-                </div>
-                <div class="item izq">
-                    <h4>Technician in accounting of commercial and financial operations</h4>
-                    <span class="casa">SENA</span>
-                    <span class="fecha">2010- 2012</span>
-                    <p>Focus on financial analysis and strategic planning to optimize resources and make informed decisions</p>
-                    <div class="conectori">
-                        <div class="circuloi"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col derecha">
-                <h3>Work experience</h3>
-                <div class="item der">
-                    <h4>Backend Developer</h4>
-                    <span class="casa">Wallib SAS</span>
-                    <span class="fecha">2023</span>
-                    <p>I was a software developer focusing on backend development, including creating endpoints, testing, and database management</p>
-                    <div class="conectord">
-                        <div class="circulod"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- SECCION PORTFOLIO -->
-<section id="portfolio" class="portfolio">
-    <div class="contenido-seccion">
-        <h2>PORTFOLIO</h2>
-        <div class="galeria">
-            <div class="proyecto">
-                <img src="img/duende.PNG" alt="">
-                 <div class="overlay">
-                    <h3>Mortal Reflex</h3>
-                    <p>This game was created during a one-day game jam in collaboration with two other teammates. I was responsible for developing attacks, obstacles, and some player movements.</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <img src="img/AS.PNG" alt="">
-                <div class="overlay">
-                    <h3>ASHAS'S ASCENT</h3>
-                    <p>This project is a three-day Game Jam, where we applied acquired knowledge. My contribution was in programming, creating scripts for the character's functionality, UI, and documentation 
-                    </p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <img src="img/crush.PNG" alt="">
-                <div class="overlay">
-                    <h3>CRUSH</h3>
-                    <p>This is a clicker game prototype where the challenge is to correct the code until it is functional and apply acquired knowledge
-                    </p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <img src="img/globo.PNG" alt="">
-                <div class="overlay">
-                    <h3>Globo Prototype</h3>
-                    <p>The following is a prototype where the player must dodge bombs, collect money, and stay afloat using impulses and bounce physics, with dynamic visual and sound effects</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <img src="img/LABORATORIO.PNG" alt="">
-                <div class="overlay">
-                    <h3>Diseño Creativo</h3>
-                    <p>Fotografía</p>
-                </div>
-            </div>
-            <div class="proyecto">
-                <img src="img/p6.jpg" alt="">
-                <div class="overlay">
-                    <h3>Diseño Creativo</h3>
-                    <p>Fotografía</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- SECCION CONTACTO -->
 <section id="contacto" class="contacto">
     <div class="contenido-seccion">
         <h2>CONTACT</h2>
         <div class="fila">
-            <!-- Formulario -->
+            <!-- Información de Contacto -->
             <div class="col">
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Phone">
-                <input type="text" placeholder="Mail">
-                <input type="text" placeholder="Topic">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                <button>
-                    send Message<i class="fa-solid fa-paper-plane"></i>
-                    <span class="overlay"></span>
-                </button>
-            </div>
-            <!-- Mapa -->
-            <div class="col">
-                <img src="img/ubicacion.PNG" alt="">
                 <div class="info">
                     <ul>
                         <li>
                             <i class="fa-solid fa-location-dot"></i>
-                            Bogota-Colombia
+                            Bogota - Colombia
                         </li>
                         <li>
                             <i class="fa-solid fa-envelope"></i>
-                            Email: angelitogomez309qgmail.com
+                            Email: <a href="mailto:angelitogomez309@gmail.com">angelitogomez309@gmail.com</a>
                         </li>
+                        <li>
+                            <i class="fa-solid fa-linkedin"></i>
+                            LinkedIn: <a href="https://www.linkedin.com/in/tu-perfil" target="_blank">Tu Perfil de LinkedIn</a>
+                        </li>
+                        <!-- Puedes agregar más formas de contacto aquí si lo deseas -->
                     </ul>
                 </div>
+            </div>
+            <!-- Mapa -->
+            <div class="col">
+                <img src="img/1FG.PNG" alt="Mapa de Ubicación">
             </div>
         </div>
     </div>
@@ -375,8 +322,8 @@
         <i class="fa-solid fa-angles-up"></i>
     </a>
     <div class="redes">
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://angelagomez.itch.io/"><i class="fa-brands fa-itch-io"></i>
+        <a href="www.linkedin.com/in/angelagomez2023"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="#"><i class="fa-brands fa-skype"></i></a>
         <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
         <a href="#"><i class="fa-solid fa-rss"></i></a>
